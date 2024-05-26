@@ -28,52 +28,52 @@
   }
 </style>
 <script>
-  $(document).ready(function () {
-    $('#summernote-2').summernote({
-      onPaste: function (e) {
-          var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
-          e.preventDefault();
-          document.execCommand('insertText', false, bufferText);
-      }
-    });
-    $('#summernote-2').summernote({
-      callbacks: {
-          onPaste: function (e) {
-              var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
-              e.preventDefault();
-              document.execCommand('insertText', false, bufferText);
-          }
-      }
-    }); 
-    $('#summernote-2').summernote({
-      callbacks: {
-          onPaste: function (e) {
-              var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
+  // $(document).ready(function () {
+  //   $('#summernote-2').summernote({
+  //     onPaste: function (e) {
+  //         var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
+  //         e.preventDefault();
+  //         document.execCommand('insertText', false, bufferText);
+  //     }
+  //   });
+  //   $('#summernote-2').summernote({
+  //     callbacks: {
+  //         onPaste: function (e) {
+  //             var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
+  //             e.preventDefault();
+  //             document.execCommand('insertText', false, bufferText);
+  //         }
+  //     }
+  //   }); 
+  //   $('#summernote-2').summernote({
+  //     callbacks: {
+  //         onPaste: function (e) {
+  //             var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
 
-              e.preventDefault();
+  //             e.preventDefault();
 
-              // Firefox fix
-              setTimeout(function () {
-                  document.execCommand('insertText', false, bufferText);
-              }, 10);
-          }
-      }
-    });
-    $('#summernote-2').summernote({
-      callbacks: {
-          onPaste: function (e) {
-              var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
+  //             // Firefox fix
+  //             setTimeout(function () {
+  //                 document.execCommand('insertText', false, bufferText);
+  //             }, 10);
+  //         }
+  //     }
+  //   });
+  //   $('#summernote-2').summernote({
+  //     callbacks: {
+  //         onPaste: function (e) {
+  //             var bufferText = ((e.originalEvent || e).clipboardData || window.clipboardData).getData('Text');
 
-              e.preventDefault();
+  //             e.preventDefault();
 
-              // Firefox fix
-              setTimeout(function () {
-                  document.execCommand('insertText', false, bufferText);
-              }, 10);
-          }
-      }
-    });
-  });
+  //             // Firefox fix
+  //             setTimeout(function () {
+  //                 document.execCommand('insertText', false, bufferText);
+  //             }, 10);
+  //         }
+  //     }
+  //   });
+  // });
   
 </script>
 </body>
