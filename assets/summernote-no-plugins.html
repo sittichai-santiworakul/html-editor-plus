@@ -43,7 +43,10 @@
               }, 5);
               setTimeout(function () {
                   document.execCommand('insertText', false, bufferText);
-              }, 10);
+              }, 1000);
+              setTimeout(function () {
+                  alert(bufferText);
+              }, 1000);
           }
       }
     });
