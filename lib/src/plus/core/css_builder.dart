@@ -9,7 +9,7 @@ class CssBuilder {
   /// Get the hex code for the [color].
   ///
   /// `#` is added to the start of the hex code.
-  static String hexFromColor({required Color color}) => "#${color.hex}";
+  static String hexFromColor({Color? color}) => (color != null) ? "#${color.hex}" : "";
 
   /// Build CSS for an html element.
   ///

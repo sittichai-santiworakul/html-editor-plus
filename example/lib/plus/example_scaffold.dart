@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:html_editor_plus/editor_plus.dart';
 import 'package:html_editor_plus_example/plus/core/control_button.dart';
@@ -151,5 +153,6 @@ class _HtmlEditorPlusExampleState extends State<HtmlEditorPlusExample> {
   void _onHtmlChanged() {
     print("Controller HTML value: ${_controller.html}");
     print("Controller character count: ${_controller.characterCount}");
+    print("Controller selection state: ${_controller.selectionState}");
   }
 }

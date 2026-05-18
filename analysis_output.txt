@@ -1,0 +1,33 @@
+Analyzing html-editor-plus...                                   
+
+   info • Statements in an if should be enclosed in a block • lib/src/html_editor_controller_mobile.dart:49:38 • curly_braces_in_flow_control_structures
+   info • 'dart:html' is deprecated and shouldn't be used. Use package:web and dart:js_interop instead • lib/src/html_editor_controller_web.dart:3:1 • deprecated_member_use
+   info • The import of 'package:meta/meta.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' • lib/src/html_editor_controller_web.dart:8:8 • unnecessary_import
+   info • The import of 'package:meta/meta.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/foundation.dart' • lib/src/plus/editor_controller.dart:4:8 • unnecessary_import
+   info • 'dart:html' is deprecated and shouldn't be used. Use package:web and dart:js_interop instead • lib/src/plus/summernote_adapter/summernote_adapter_web.dart:5:1 • deprecated_member_use
+   info • Don't use 'BuildContext's across async gaps • lib/src/widgets/html_editor_widget_mobile.dart:442:37 • use_build_context_synchronously
+   info • Unnecessary escape in string literal • lib/src/widgets/html_editor_widget_mobile.dart:447:41 • unnecessary_string_escapes
+   info • Use interpolation to compose strings and values • lib/src/widgets/html_editor_widget_mobile.dart:447:45 • prefer_interpolation_to_compose_strings
+   info • Unnecessary escape in string literal • lib/src/widgets/html_editor_widget_mobile.dart:447:198 • unnecessary_string_escapes
+   info • Unnecessary escape in string literal • lib/src/widgets/html_editor_widget_mobile.dart:447:205 • unnecessary_string_escapes
+   info • Unnecessary escape in string literal • lib/src/widgets/html_editor_widget_mobile.dart:447:217 • unnecessary_string_escapes
+   info • 'dart:html' is deprecated and shouldn't be used. Use package:web and dart:js_interop instead • lib/src/widgets/html_editor_widget_web.dart:3:1 • deprecated_member_use
+   info • 'dart:html' is deprecated and shouldn't be used. Use package:web and dart:js_interop instead • lib/src/widgets/html_editor_widget_web.dart:12:1 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/src/widgets/toolbar_widget.dart:471:74 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/src/widgets/toolbar_widget.dart:583:76 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/src/widgets/toolbar_widget.dart:653:76 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/src/widgets/toolbar_widget.dart:772:76 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/src/widgets/toolbar_widget.dart:988:47 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/src/widgets/toolbar_widget.dart:1001:48 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/src/widgets/toolbar_widget.dart:1091:59 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use component accessors like .r or .g, or toARGB32 for an explicit conversion • lib/src/widgets/toolbar_widget.dart:1101:59 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/src/widgets/toolbar_widget.dart:1187:76 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/src/widgets/toolbar_widget.dart:1392:76 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/src/widgets/toolbar_widget.dart:1533:76 • deprecated_member_use
+   info • 'dialogBackgroundColor' is deprecated and shouldn't be used. Use DialogThemeData.backgroundColor instead. This feature was deprecated after v3.27.0-0.1.pre • lib/src/widgets/toolbar_widget.dart:1715:69 • deprecated_member_use
+   info • 'dialogBackgroundColor' is deprecated and shouldn't be used. Use DialogThemeData.backgroundColor instead. This feature was deprecated after v3.27.0-0.1.pre • lib/src/widgets/toolbar_widget.dart:1805:71 • deprecated_member_use
+   info • 'dialogBackgroundColor' is deprecated and shouldn't be used. Use DialogThemeData.backgroundColor instead. This feature was deprecated after v3.27.0-0.1.pre • lib/src/widgets/toolbar_widget.dart:1946:69 • deprecated_member_use
+   info • 'dialogBackgroundColor' is deprecated and shouldn't be used. Use DialogThemeData.backgroundColor instead. This feature was deprecated after v3.27.0-0.1.pre • lib/src/widgets/toolbar_widget.dart:2083:69 • deprecated_member_use
+   info • 'dialogBackgroundColor' is deprecated and shouldn't be used. Use DialogThemeData.backgroundColor instead. This feature was deprecated after v3.27.0-0.1.pre • lib/src/widgets/toolbar_widget.dart:2220:69 • deprecated_member_use
+
+29 issues found. (ran in 4.7s)
